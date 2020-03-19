@@ -1,5 +1,7 @@
 https://github.com/kubernetes/client-go/blob/master/INSTALL.md#go-modules
-
+https://engineering.bitnami.com/articles/kubewatch-an-example-of-kubernetes-custom-controller.html
+https://medium.com/@cloudark/kubernetes-custom-controllers-b6c7d0668fdf
+https://engineering.bitnami.com/articles/a-deep-dive-into-kubernetes-controllers.html
 # Demo-Controller
 
 `demo-controller` is the simplest, yet fully valid, kubernetes controller I could up come with. When I wanted to learn how to build k8s controllers, I search the net and found only some general ideas or already quite complicated examples, that were actually really doing "something" or were using Custom Resource Definitions (CRDs).

@@ -12,5 +12,3 @@ require (
 	k8s.io/client-go v0.17.0
 	k8s.io/utils v0.0.0-20200318093247-d1ab8797c558 // indirect
 )
-
-replace kubevirt.io/client-go v0.23.0 => kubevirt.io/client-go v0.19.0
