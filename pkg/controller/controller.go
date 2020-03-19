@@ -92,6 +92,7 @@ func Start() {
 
 	signal.Notify(sigterm, syscall.SIGTERM)
 	signal.Notify(sigterm, syscall.SIGINT)
+
 	<-sigterm
 }
 

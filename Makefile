@@ -2,7 +2,7 @@
 
 BINARY = demo-controller
 
-DOCKER_REPO = YOUR_URL
+DOCKER_REPO = localhost:5000/lanjie_controller
 
 VER := $(shell grep "const version = " main.go | cut -f2 -d'"')
 GIT := $(shell git rev-parse --short HEAD)
